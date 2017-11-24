@@ -29,6 +29,14 @@ body {
 #update {}
 
 ul {
-list-style:none;
-padding-left:0;
+  list-style:none;
+  padding-left:0;
+}
+
+ul.list {
+  list-style: unset;
+}
+
+.by-line {
+  font-size: 70%;
 }
